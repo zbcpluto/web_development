@@ -1,0 +1,43 @@
+#nav-index {
+	color: #da691e;
+	pointer-events: none;
+	cursor: default;
+}
+
+#nav-reg {
+	pointer-events: none;
+	cursor: default;
+}
+
+h2 {
+	margin-left: 320px;
+}
+
+video {
+	margin-left: 320px;
+}
+
+.card {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.card > img {
+	width: 40%;
+	margin-right: 40px;
+}
+
+.card > div > p {
+	margin: 10px 0;
+}
+
+.hero-name {
+	font-size: 22px;
+}
+
+.win-ratio {
+	color: #da691e;
+}

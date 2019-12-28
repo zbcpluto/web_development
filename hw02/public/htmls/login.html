@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/login.css"/>
+</head>
+<body>
+	<div class="nav-top-container">
+		<img src="../images/logo.png" alt="logo">
+		<h1>召唤师个人信息查询系统</h1>
+        <ul>
+            <li role="presentation" ><a id="nav-login">登录</a></li>
+            <li role="presentation" ><a href="/register">注册</a></li>
+			<li role="presentation" ><a id="nav-index">主页</a></li>
+        </ul>
+    </div>
+	<div class="main-container" id="main-container-id">
+		<div id="login-container">
+			<h2>尊敬的召唤师，请登录</h2>
+			<form id="login_form">
+				<div class="input-interval">
+					<input type="text" name="username" placeholder="请输入账号">
+				</div>
+				
+				<div class="input-interval">
+					<input type="password" name="password" placeholder="请输入密码">
+				</div>
+				
+				<div class="input-interval">
+					<input id="verication-input"type="text" placeholder="请输入验证码">
+					<img src="../images/verification.png" alt="verification">
+				</div>
+				
+				<div class="form-group">
+					<p>还没有账号? <a href="/register">&nbsp;立即注册</a></p>
+				</div>
+
+				<div>
+					<input id="login-btn" type="submit" value="登录">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="../javascripts/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#nav-reg {
+	color: #da691e;
+	pointer-events: none;
+	cursor: default;
+}
+
+#nav-index {
+	pointer-events: none;
+	cursor: default;
+}
+
+#main-container-id {
+	background: url("../images/bg-regist.png") top center no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#reg-container {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 2px;
+	box-shadow: #ccc 1px 0 0 0;
+}
+
+#reg-container > * {
+	padding: 30px 25px 0 25px
+}
+
+.input-interval {
+	margin: 20px 0;
+}
+
+#verication-input {
+	width: 60%;
+	margin-right: 10px;
+}
+
+#reg-btn {
+	margin: 10px 0;
+	width: 100%;
+	background: #17a2b8;
+	color: white;
+}
+
+#reg-btn:hover{
+	cursor: pointer;
+	background: #da691e;
+}

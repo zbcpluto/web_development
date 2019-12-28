@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/register.css"/>
+</head>
+<body>
+	<div class="nav-top-container">
+		<img src="../images/logo.png" alt="logo">
+		<h1>召唤师个人信息查询系统</h1>
+        <ul>
+            <li role="presentation" ><a href="/login">登录</a></li>
+            <li role="presentation" ><a id="nav-reg">注册</a></li>
+			<li role="presentation" ><a id="nav-index">主页</a></li>
+        </ul>
+    </div>
+	<div class="main-container" id="main-container-id">
+		<div id="reg-container">
+			<h2>注册成为一名召唤师</h2>
+			<form id="register_form">
+				<div class="input-interval">
+					<input type="text" name="username" placeholder="请输入账号">
+				</div>
+				
+				<div class="input-interval">
+					<input type="password" name="password" placeholder="请输入密码">
+				</div>
+				
+				<div class="input-interval">
+					<input type="password" placeholder="再次确认密码">
+				</div>
+				
+				<div class="input-interval">
+					<input id="verication-input" type="text" placeholder="请输入验证码">
+					<img src="../images/verification2.png" alt="verification"/>
+				</div>
+				
+				<div class="form-group">
+					<p>已有账号? <a href="/">&nbsp;立即登录</a></p>
+				</div>
+
+				<div>
+					<input id="reg-btn" type="submit" value="注册">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="../javascripts/register.js"></script>
+</body>
+</html>
